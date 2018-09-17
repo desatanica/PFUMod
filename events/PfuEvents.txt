@@ -323,11 +323,14 @@ country_event = {
 
 	trigger = {
 		tag = SOV
-		date > 1941.5.5
+		date > 1941.7.1
+      		SOV = {
+			controls_state = 264
+		} 
 		OR = {
-		#	NOT = { SOV = { controls_state = 209 } }
-			NOT = { SOV = { controls_state = 12 } }
-		#	NOT = { SOV = { controls_state = 195 } }
+			NOT = { SOV = { controls_state = 209 } }
+			NOT = { SOV = { controls_state = 12 } }	
+			NOT = { SOV = { controls_state = 195 } }	
 		}
 		NOT = { has_global_flag = sov_tihkvin }
 	}
@@ -414,7 +417,6 @@ country_event = {
 		name = pfu.12.a
 		custom_effect_tooltip = pfu.12.a.tt
 		hidden_effect = {
-			set_technology = { tech_signal_company = 1 }
 			add_manpower = -12000
 			load_oob = GER_heavytank
 		}
@@ -430,12 +432,18 @@ country_event = {
 
 	trigger = {
 		tag = SOV
+		has_army_manpower = { size < 6500000 }
 		OR = {
-			NOT = { SOV = { controls_state = 207 } }
-			# NOT = { SOV = { controls_state = 206 } }
-			# NOT = { SOV = { controls_state = 204 } }
+		date > 1941.12.1
+		NOT = { SOV = { controls_state = 205 } }
+		NOT = { SOV = { controls_state = 246 } }
+		NOT = { SOV = { controls_state = 247 } }
+		NOT = { SOV = { controls_state = 233 } }
+		NOT = { SOV = { controls_state = 263 } }
+		NOT = { SOV = { controls_state = 219 } }
 		}
 		NOT = { has_global_flag = sov_moscow }
+		not = { has_global_flag = pfu.47 }
 	}
 
 	immediate = {
@@ -450,24 +458,25 @@ country_event = {
 			load_oob = SOV_moscow
 		}
 	}
-	mean_time_to_happen = { days = 5 }
+	mean_time_to_happen = { days = 2 }
 }
 
 country_event = {
 	id = pfu.14
-	title = pfu.14.t # Stalingard
+	title = pfu.14.t
 	desc = pfu.14.d
 	picture = GFX_report_event_voronezh
 
 	trigger = {
 		tag = SOV
+		date > 1941.8.1
 		SOV = {
 			controls_state = 260
 		}
 		OR = {
-			NOT = { SOV = { controls_state = 203 } }
-			# NOT = { SOV = { controls_state = 221 } }
-			# NOT = { SOV = { controls_state = 227 } }
+			NOT = { SOV = { controls_state = 220 } }
+			NOT = { SOV = { controls_state = 221 } }
+			NOT = { SOV = { controls_state = 227 } }
 		}
 
 		NOT = {
@@ -670,6 +679,9 @@ country_event = {
 	trigger = {
 		date > 1943.1.1
 		tag = GER
+		SOV = { controls_state = 219 }
+        SOV = { controls_state = 217 }
+        ENG = { controls_state = 126 }  		
 		NOT = { has_global_flag = total_war }
 	}
 
@@ -680,9 +692,12 @@ country_event = {
 	option = {
 		name = pfu.21.a
 		remove_ideas = GER_short_war
-		add_ideas = GER_total_war
-	}
+		add_ideas = GER_total_war	
+		hidden_effect = {
+				news_event = { hours = 8 id = pfunews.totalwar }
+			}		
 	mean_time_to_happen = { days = 30 }
+    }	
 }
 
 country_event = {
@@ -805,7 +820,7 @@ country_event = {
 
 	trigger = {
 		tag = JAP
-		date > 1940.5S.1
+		date > 1940.5.1
 		CHI = {
 			controls_state = 605
 		}
@@ -1012,13 +1027,12 @@ country_event = {
 
 	trigger = {
 		tag = SOV
-		SOV = {
-			controls_state = 236
-		}
+		has_army_manpower = { size < 6500000 }
 		OR = {
-		#	NOT = { SOV = { controls_state = 196 } }
-		#	NOT = { SOV = { controls_state = 137 } }
-			NOT = { SOV = { controls_state = 200 } }
+			NOT = { SOV = { controls_state = 234 } }
+			NOT = { SOV = { controls_state = 218 } }	
+			NOT = { SOV = { controls_state = 231 } }
+           SOV = { controls_state = 266 }			
 		}
 
 		NOT = {
@@ -1069,4 +1083,75 @@ country_event = {
 		}
 	}
 	mean_time_to_happen = { days = 30 }
+}
+
+country_event = {
+	id = pfu.37   
+	title = pfu.37.t
+	desc = pfu.37.d
+	picture = GFX_report_event_tihkvin
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = SOV		
+		has_army_manpower = { size < 6500000 }
+		date > 1941.11.30
+		date < 1942.1.20
+		
+		OR = {
+			NOT = { SOV = { controls_state = 246 } }
+			NOT = { SOV = { controls_state = 205 } }	
+			NOT = { SOV = { controls_state = 264 } }
+			NOT = { SOV = { controls_state = 223 } }
+			NOT = { SOV = { controls_state = 220 } }   
+            NOT = { SOV = { controls_state = 228 } } 			
+		}
+
+		NOT = { has_global_flag = SOV_winteroffensive }	
+        NOT = { has_global_flag = pfu.47 }		
+	}
+	
+	immediate = {
+		set_global_flag = SOV_winteroffensive
+	}
+	
+	option = {
+		name = pfu.38.a 
+		 
+		add_timed_idea = { idea = SOV_winter_offensive days = 30 }
+		
+		news_event = { hours = 5 id = pfunews.5 }
+	
+	}
+		
+}
+
+country_event = {
+	id = pfu.52   
+	title = pfu.52.t
+	desc = pfu.52.d
+	picture = GFX_report_event_german_inspect_troops
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = SOV
+		date < 1941.8.1 
+        
+		NOT = { SOV = { controls_state = 206 } }
+
+		NOT = { has_global_flag = SOV_minsk }		
+	}
+	
+	immediate = {
+		set_global_flag = SOV_minsk
+	}
+	
+	option = {
+		name = pfu.52.a 
+        
+		add_timed_idea = { idea = SOV_minsk days = 45 }
+			
+	}	
 }

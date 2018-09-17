@@ -1,0 +1,169 @@
+ideas = {
+	# MILITARY
+	
+	
+	political_advisor = {
+
+		TKN_Camran_Kairatev = {
+
+			picture = generic_political_advisor_arab_3
+
+			allowed = {
+				original_tag = TKN
+			}
+			
+			traits = { captain_of_industry }
+		}
+
+		TKN_Khazretgali_Ruslanev = {
+
+			picture = generic_political_advisor_arab_2
+				
+			allowed = {
+				original_tag = TKN
+			}
+			
+			traits = { silent_workhorse }
+		}
+
+		TKN_Iliyas_Nurbolatev = {
+
+			picture = generic_political_advisor_arab_3
+			
+			allowed = {
+				original_tag = TKN
+			}
+			
+			traits = { quartermaster_general }
+		}
+	}
+
+	army_chief = {
+
+		TKN_Ershat_Khazretgaliov = {
+
+			picture = generic_army_arab_3
+			
+			allowed = {
+				original_tag = TKN
+			}		
+			
+			traits = { army_chief_organizational_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		TKN_Abzal_Rasulev = {
+
+			picture = generic_army_arab_1
+			
+			allowed = {
+				original_tag = TKN
+			}
+			
+			traits = { army_chief_offensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+
+		TKN_Rustam_Magjanov = {
+
+			picture = generic_air_arab_3
+			
+			allowed = {
+				original_tag = TKN
+			}
+			
+			traits = { air_chief_all_weather_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+
+	}
+
+
+
+	high_command = {
+
+		
+		TKN_Nariman_Armanev = {
+
+			picture = generic_army_arab_2
+			
+			allowed = {
+				original_tag = TKN
+			}
+			
+			traits = { army_infantry_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		
+		
+		
+		TKN_Bekbolat_Daniyarbekov = {
+			
+			picture = generic_army_arab_1
+			
+			allowed = {
+				original_tag = TKN
+			}
+			
+			traits = { army_regrouping_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+
+
+		TKN_Khazretgali_Bolatov = {
+
+			picture = generic_air_arab_3
+			
+			allowed = {
+				original_tag = TKN
+			}
+			
+			traits = { army_concealment_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}	
+
+	theorist = {
+		TKN_Askar_Fauskeev = {
+			
+			picture = generic_army_arab_3
+
+			allowed = {
+				original_tag = TKN
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.07
+			}
+			
+			traits = { military_theorist }
+		}
+			
+
+	}
+}

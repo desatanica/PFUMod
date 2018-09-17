@@ -525,49 +525,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			if = {
-				limit = { 544 = { is_owned_and_controlled_by = ENG } }
-				transfer_state = 544
-			}
-			if = {
-				limit = { 540 = { is_owned_and_controlled_by = ENG } }
-				transfer_state = 540
-			}
-			if = {
-				limit = { 542 = { is_owned_and_controlled_by = ENG } }
-				transfer_state = 542
-			}
-			if = {
-				limit = { 545 = { is_owned_and_controlled_by = ENG } }
-				transfer_state = 545
-			}
-			if = {
-				limit = { 546 = { is_owned_and_controlled_by = ENG } }
-				transfer_state = 546
-			}
-			if = {
-				limit = { 547 = { is_owned_and_controlled_by = ENG } }
-				transfer_state = 547
-			}
-			if = {
-				limit = { 548 = { is_owned_and_controlled_by = ENG } }
-				transfer_state = 548
-			}
-			if = {
-				limit = { 295 = { is_owned_and_controlled_by = BEL } }
-				transfer_state = 295
-			}
-			if = {
-				limit = { 538 = { is_owned_and_controlled_by = BEL } }
-				transfer_state = 538
-			}
-			if = {
-				limit = { 718 = { is_owned_and_controlled_by = BEL } }
-				transfer_state = 718
-			}
-
-			hidden_effect = {
-				news_event = { id = news.260 hours = 6 }
+			add_political_power = 120
+			add_autonomy_ratio = {
+				value = 0.1
+				localization = AST_adopt_westminster
 			}
 		}
 	}

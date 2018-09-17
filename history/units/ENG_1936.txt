@@ -28,6 +28,7 @@
 		recon = { x = 0 y = 1 } 		# Recon bn had 16 L tanks, 10 ACs, 1x mot inf co #Eng and recon removed and they seem rather OP. Could revisit if balance changes
 		logistics_company { x = 0 y = 2 }
 		artillery = { x = 0 y = 3 }
+        anti_tank = { x = 0 y = 4 }		# Heavy Arty Regiment had 1x 152mm bn + 2x 122mm bn
 	}
 }
 
@@ -709,28 +710,28 @@ air_wings = {
 	126 = {
 		### No. 11 Fighter Command, Middlesex area -- Hawker Demons, Furys, Gloster Gauntlets
 		fighter_equipment_0 = {
-			owner = "ENG"
-			amount = 400
+			owner = "ENG" 
+			amount = 100
 		}
 				fighter_equipment_0 = {
-			owner = "ENG"
-			amount = 400
+			owner = "ENG" 
+			amount = 100
 		}
 				fighter_equipment_0 = {
-			owner = "ENG"
-			amount = 200
+			owner = "ENG" 
+			amount = 100
 		}
 				fighter_equipment_0 = {
-			owner = "ENG"
-			amount = 200
+			owner = "ENG" 
+			amount = 100
 		}
 				fighter_equipment_0 = {
-			owner = "ENG"
-			amount = 200
+			owner = "ENG" 
+			amount = 100
 		}
 				fighter_equipment_0 = {
-			owner = "ENG"
-			amount = 200
+			owner = "ENG" 
+			amount = 100
 		}
 
 		CAS_equipment_1 = {

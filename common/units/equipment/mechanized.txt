@@ -19,12 +19,13 @@ equipments = {
 		reliability = 0.8
 		
 		#Defensive Abilities
-		defense = 26
+		defense = 20
 		breakthrough = 4
 		hardness = 0.5
 		armor_value = 10
 
 		#Offensive Abilities
+		soft_attack = 3
 		ap_attack = 11
 		air_attack = 0
 
@@ -57,10 +58,10 @@ equipments = {
 		priority = 40
 		visual_level = 1
 
-		maximum_speed = 10
+		maximum_speed = 8
 
 		#Defensive Abilities
-		defense = 30
+		defense = 24
 		breakthrough = 5
 		hardness = 0.6
 		armor_value = 15
@@ -68,7 +69,7 @@ equipments = {
 		#Offensive Abilities
 		ap_attack = 16
 		soft_attack = 3.5
-
+		
 		build_cost_ic = 10
 		resources = {
 			steel = 3
@@ -86,10 +87,10 @@ equipments = {
 		priority = 40
 		visual_level = 2
 		
-		maximum_speed = 12
+		maximum_speed = 8.5
 
 		#Defensive Abilities
-		defense = 34
+		defense = 28
 		breakthrough = 6
 		hardness = 0.7
 		armor_value = 20
@@ -97,7 +98,6 @@ equipments = {
 		#Offensive Abilities
 		ap_attack = 21
 		soft_attack = 4
-
 		
 		build_cost_ic = 11
 		resources = {

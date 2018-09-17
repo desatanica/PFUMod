@@ -1563,9 +1563,6 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			hidden_effect = {
-				news_event = { id = pfunews.6 hours = 6 }
-			}
 		}
 	}
 

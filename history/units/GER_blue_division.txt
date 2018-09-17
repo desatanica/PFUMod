@@ -1,0 +1,9 @@
+units = {
+	##### PFU Spanish volunteers #####
+	division= {
+		name = "División Azul"
+		location = 6521
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.5
+	}
+}

@@ -1,0 +1,168 @@
+units = {
+	##### PFU Turkestan #####
+
+								
+								
+								
+	division= {
+		name = "1. Strelkovaya Diviziya"
+		location = 1459
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "2. Strelkovaya Diviziya"
+		location = 1459
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "3. Strelkovaya Diviziya"
+		location = 1459
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "4. Strelkovaya Diviziya"
+		location = 1459
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "5. Strelkovaya Diviziya"
+		location = 1459
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "6. Strelkovaya Diviziya"
+		location = 1459
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.3
+	}	
+	division= {
+		name = "7. Strelkovaya Diviziya"
+		location = 1459
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "8. Strelkovaya Diviziya"
+		location = 1459
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.3
+	}	
+	division= {
+		name = "9. Strelkovaya Diviziya"
+		location = 1459
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "10. Strelkovaya Diviziya"
+		location = 1459
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.3
+	}	
+	division= {
+		name = "11. Strelkovaya Diviziya"
+		location = 1459
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "12. Strelkovaya Diviziya"
+		location = 1459
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "13. Strelkovaya Diviziya"
+		location = 1459
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "14. Strelkovaya Diviziya"
+		location = 1459
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "15. Strelkovaya Diviziya"
+		location = 1459
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "16. Strelkovaya Diviziya"
+		location = 1459
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "17. Strelkovaya Diviziya"
+		location = 1459
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "18. Strelkovaya Diviziya"
+		location = 1459
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "19. Strelkovaya Diviziya"
+		location = 1459
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "20. Strelkovaya Diviziya"
+		location = 1459
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "21. Strelkovaya Diviziya"
+		location = 1459
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "22. Strelkovaya Diviziya"
+		location = 1459
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.3
+	}
+								
+								
+								
+   division= {
+		name = "1. Gornostrelkovaya Diviziya"
+		location = 1459
+		division_template = "Gornostrelkovaya Diviziya"
+		start_experience_factor = 0.5
+	}
+   division= {
+		name = "2. Gornostrelkovaya Diviziya"
+		location = 1459
+		division_template = "Gornostrelkovaya Diviziya"
+		start_experience_factor = 0.5
+	}
+   division= {
+		name = "3. Gornostrelkovaya Diviziya"
+		location = 1459
+		division_template = "Gornostrelkovaya Diviziya"
+		start_experience_factor = 0.5
+	}
+   division= {
+		name = "4. Gornostrelkovaya Diviziya"
+		location = 1459
+		division_template = "Gornostrelkovaya Diviziya"
+		start_experience_factor = 0.5
+	}
+	
+
+}

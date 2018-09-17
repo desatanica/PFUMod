@@ -81,7 +81,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -123,7 +123,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -170,7 +170,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -212,7 +212,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -254,7 +254,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -298,7 +298,7 @@ technologies = {
 		navy_capital_ship_attack_factor = 0.1
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -338,7 +338,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -385,7 +385,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -428,7 +428,7 @@ technologies = {
 		}
 		navy_carrier_air_agility_factor = 0.05
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -474,7 +474,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -520,7 +520,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -561,7 +561,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -601,7 +601,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -636,7 +636,7 @@ technologies = {
 		#######
 	
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -742,7 +742,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -788,7 +788,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -834,7 +834,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -881,7 +881,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -938,7 +938,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -1007,7 +1007,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -1056,7 +1056,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -1104,7 +1104,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -1143,7 +1143,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -1180,7 +1180,7 @@ technologies = {
 		########
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -1222,7 +1222,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -1263,7 +1263,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -1306,7 +1306,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -1346,7 +1346,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -1439,7 +1439,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -1492,7 +1492,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -1542,7 +1542,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -1595,7 +1595,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -1645,7 +1645,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -1693,7 +1693,7 @@ technologies = {
 		###########
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -1743,7 +1743,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -1781,7 +1781,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -1820,7 +1820,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -1853,7 +1853,7 @@ technologies = {
 		#######
 
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -1892,7 +1892,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -1937,7 +1937,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -1978,7 +1978,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine
@@ -2013,7 +2013,7 @@ technologies = {
 		#####
 	
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 2
 		
 		categories = {
 			naval_doctrine

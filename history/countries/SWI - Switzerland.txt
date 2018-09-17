@@ -11,10 +11,16 @@ set_technology = {
 	tech_mountaineers = 1
 	tech_support = 1		
 	tech_engineers = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	motorised_infantry = 1
+	interwar_antitank = 1
 	tech_recon = 1
 	early_fighter = 1
 	CAS1 = 1
 	trench_warfare = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
 }
 
 1939.1.1 = {

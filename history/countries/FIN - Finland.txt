@@ -17,6 +17,7 @@ set_technology = {
 	tech_engineers = 1
 	early_submarine = 1
 	early_heavy_cruiser = 1
+	interwar_antitank = 1
     early_destroyer = 1
 	support_weapons = 1
 	motorised_infantry = 1

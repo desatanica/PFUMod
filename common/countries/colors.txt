@@ -1,5 +1,11 @@
 #reload countrycolors
 
+
+TKN = {
+	color = rgb { 152 128 43 }
+	color_ui = rgb { 152 128 43 }
+}
+
 GER = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }

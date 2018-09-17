@@ -21,11 +21,11 @@ equipments = {
 		}
 		
 		#Misc Abilities
-		maximum_speed = 10
-		reliability = 0.8
+		maximum_speed = 8.5
+		reliability = 0.7
 
 		#Defensive Abilities
-		defense = 10
+		defense = 18
 		breakthrough = 84
 		hardness = 0.98
 		armor_value = 130
@@ -82,8 +82,8 @@ equipments = {
 		
 
 		#Misc Abilities
-		maximum_speed = 10
-		reliability = 0.8
+		maximum_speed = 8.5
+		reliability = 0.7
 
 		#Defensive Abilities
 		defense = 8
@@ -141,11 +141,11 @@ equipments = {
 		}
 		
 		#Misc Abilities
-		maximum_speed = 10
-		reliability = 0.8
+		maximum_speed = 8.5
+		reliability = 0.7
 
 		#Defensive Abilities
-		defense = 8
+		defense = 18
 		breakthrough = 2
 		hardness = 0.98
 		armor_value = 130
@@ -201,8 +201,8 @@ equipments = {
 		}
 
 		#Misc Abilities
-		maximum_speed = 10
-		reliability = 0.8
+		maximum_speed = 8.5
+		reliability = 0.7
 
 		#Defensive Abilities
 		defense = 4

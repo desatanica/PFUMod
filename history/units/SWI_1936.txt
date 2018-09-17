@@ -22,10 +22,46 @@
 		artillery_brigade = { x = 3 y = 1 }
 		artillery_brigade = { x = 3 y = 2 }
 		artillery_brigade = { x = 3 y = 3 }
+
+
+	}
+		support = {
+		engineer = { x = 0 y = 0 }      # includes 1x AC comp, 1x L tank comp
+		recon = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+		anti_tank { x = 0 y = 4 }
+	}
+}
+division_template = {
+	name = "Gebirgs-Division"  
+	# Note: Mountain Divisions are same as Infantry Divisions above, but with mountain regiments
+		regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 0 y = 3 }
+		mountaineers = { x = 0 y = 4 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 1 y = 3 }
+		mountaineers = { x = 1 y = 4 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+		mountaineers = { x = 2 y = 2 }
+		mountaineers = { x = 2 y = 3 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+		artillery_brigade = { x = 3 y = 2 }
+		artillery_brigade = { x = 3 y = 3 }
 	}
 	support = {
 		engineer = { x = 0 y = 0 }      # includes 1x AC comp, 1x L tank comp
 		recon = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+		anti_tank { x = 0 y = 4 }
 	}
 }
 

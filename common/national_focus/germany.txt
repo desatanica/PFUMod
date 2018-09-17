@@ -771,6 +771,7 @@ focus_tree = {
 			army_experience = 100
             custom_effect_tooltip = pfu.battlerussia.tt
 			hidden_effect = {
+			add_ideas = henschel
 				set_technology = { improved_heavy_tank = 1 }
 				add_tech_bonus = {
 					name = at_bonus
@@ -1178,6 +1179,10 @@ focus_tree = {
 		cost = 4.3
 
 		available = {
+		OR = {		
+		has_idea = extensive_conscription
+		has_idea = service_by_requirement
+		}
 			GER = { controls_state = 15 }
 			GER = { controls_state = 7 }
 			GER = { controls_state = 19 }
@@ -2012,6 +2017,9 @@ focus_tree = {
 				HUN = {
 					add_state_core = 76
 				}
+				ROM = {
+			remove_state_core = 76
+			}
 				country_event = { id = germany.20 }
 			}
 		}

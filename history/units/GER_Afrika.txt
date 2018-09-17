@@ -1,0 +1,21 @@
+units = {
+	##### PFU Afrika #####
+	division= {
+		name = "21. Panzer-Division"
+		location = 1149
+		division_template = "Panzer-Division"
+		start_experience_factor = 0.4
+	}
+	division= {
+		name = "15. Panzer-Division"
+		location = 1149
+		division_template = "Panzer-Division"
+		start_experience_factor = 0.4
+	}
+	division= {
+		name = "90. Leichte-Division"
+		location = 1149
+		division_template = "Leichte-Division"
+		start_experience_factor = 0.3
+	}
+}

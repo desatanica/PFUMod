@@ -1,4 +1,4 @@
-units = {
+﻿units = {
 	##### PFU moscow #####
 	division= {
 		name = "526. Strelkovaya Diviziya"
@@ -50,7 +50,7 @@ units = {
 	}
 	division= {
 		name = "194. Strelkovaya Diviziya"
-		location = 253
+		location = 231
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.5
 	}

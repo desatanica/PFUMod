@@ -546,6 +546,7 @@ special_projects = {
 		icon = generic_construction
 
 		available = {
+			NOT = { tag = FRA }
 			#has_war = yes
 			controls_state = 28
 			if = {

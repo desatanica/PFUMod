@@ -1,8 +1,110 @@
 spriteTypes = {
 
+
+spriteType = {
+		name = "GFX_idea_blue_division"
+		texturefile = "gfx/interface/ideas/idea_blue_division.dds"
+	}
+
 spriteType = {
 		name = "GFX_news_event_hitler_paris"
 		texturefile = "gfx/event_pictures/news_event_hitler_paris.dds"
+	}
+spriteType = {
+		name = "GFX_news_event_total_war"
+		texturefile = "gfx/event_pictures/news_event_total_war.dds"
+	}
+spriteType = {
+		name = "GFX_news_event_winter"
+		texturefile = "gfx/event_pictures/news_event_winter.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_tora"
+		texturefile = "gfx/event_pictures/news_event_tora.dds"
+	}
+		spriteType = {
+		name = "GFX_news_event_pfu"
+		texturefile = "gfx/event_pictures/news_event_pfu.dds"
+	}
+		spriteType = {
+		name = "GFX_news_event_tora2"
+		texturefile = "gfx/event_pictures/news_event_tora2.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_stalingrad"
+		texturefile = "gfx/event_pictures/news_event_stalingrad.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_stalingrad2"
+		texturefile = "gfx/event_pictures/news_event_stalingrad2.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_stalingrad3"
+		texturefile = "gfx/event_pictures/news_event_stalingrad3.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_500"
+		texturefile = "gfx/event_pictures/news_event_500.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_501"
+		texturefile = "gfx/event_pictures/news_event_501.dds"
+	}
+		spriteType = {
+		name = "GFX_news_event_502"
+		texturefile = "gfx/event_pictures/news_event_502.dds"
+	}
+		spriteType = {
+		name = "GFX_news_event_503"
+		texturefile = "gfx/event_pictures/news_event_503.dds"
+	}
+		spriteType = {
+		name = "GFX_news_event_504"
+		texturefile = "gfx/event_pictures/news_event_504.dds"
+	}
+		spriteType = {
+		name = "GFX_news_event_505"
+		texturefile = "gfx/event_pictures/news_event_505.dds"
+	}
+		spriteType = {
+		name = "GFX_news_event_506"
+		texturefile = "gfx/event_pictures/news_event_506.dds"
+	}	
+			spriteType = {
+		name = "GFX_news_event_507"
+		texturefile = "gfx/event_pictures/news_event_507.dds"
+	}
+				spriteType = {
+		name = "GFX_news_event_508"
+		texturefile = "gfx/event_pictures/news_event_508.dds"
+	}
+				spriteType = {
+		name = "GFX_news_event_509"
+		texturefile = "gfx/event_pictures/news_event_509.dds"
+	}
+				spriteType = {
+		name = "GFX_news_event_510"
+		texturefile = "gfx/event_pictures/news_event_510.dds"
+	}
+					spriteType = {
+		name = "GFX_news_event_511"
+		texturefile = "gfx/event_pictures/news_event_511.dds"
+	}
+					spriteType = {
+		name = "GFX_news_event_512"
+		texturefile = "gfx/event_pictures/news_event_512.dds"
+	}
+						spriteType = {
+		name = "GFX_news_event_513"
+		texturefile = "gfx/event_pictures/news_event_513.dds"
+	}
+							spriteType = {
+		name = "GFX_news_event_514"
+		texturefile = "gfx/event_pictures/news_event_514.dds"
+	}
+							spriteType = {
+		name = "GFX_news_event_515"
+		texturefile = "gfx/event_pictures/news_event_515.dds"
 	}
 	spriteType = {
 		name = "GFX_news_event_white_death"

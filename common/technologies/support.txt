@@ -328,7 +328,7 @@ technologies = {
 	tech_military_police2 = {
 
 		military_police = {
-			suppression_factor = 0.1
+			suppression_factor = 1
 		}
 		
 		
@@ -357,7 +357,7 @@ technologies = {
 	tech_military_police3 = {
 
 		military_police = {
-			suppression_factor = 0.1
+			suppression_factor = 1
 		}
 		path = {
 			leads_to_tech = tech_military_police4
@@ -383,7 +383,7 @@ technologies = {
 	tech_military_police4 = {
 
 		military_police = {
-			suppression_factor = 0.1
+			suppression_factor = 1
 		}
 
 		research_cost = 0.75

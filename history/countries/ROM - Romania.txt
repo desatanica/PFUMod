@@ -9,7 +9,9 @@ set_war_support = 0.6
 # Starting tech
 set_technology = {
 	tech_support = 1
+    tech_recon = 1	
 	tech_engineers = 1
+	tech_logistics_company
 	tech_mountaineers = 1
 	motorised_infantry = 1
 	gwtank = 1

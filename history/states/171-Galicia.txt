@@ -3,7 +3,7 @@ state={
 	id=171
 	name="STATE_171"
 	resources={
-		tungsten=76
+		tungsten=46
 	}
 	manpower = 2295085
 	
