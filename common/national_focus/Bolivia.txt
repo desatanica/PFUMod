@@ -1,0 +1,56 @@
+focus_tree = {
+	id = Bolivia
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BOL
+		}
+	}
+	default = no
+	focus = {
+		id = BOL_develop
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 500
+		x = 1
+		y = 0
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		302 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+		}
+		add_resource = {
+				type = tungsten
+				amount = 78
+				state = 302
+			}
+		add_resource = {
+				type = steel
+				amount = 3
+				state = 302
+			}
+		add_resource = {
+				type = tungsten
+				amount = 4
+				state = 688
+			}
+		add_resource = {
+				type = steel
+				amount = 2
+				state = 688
+			}
+
+	remove_ideas = latin_neutrality
+	}
+	
+	}
+
+}

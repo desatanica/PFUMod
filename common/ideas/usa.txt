@@ -78,7 +78,7 @@ ideas = {
 			modifier = {
 				political_power_cost = 1
 				consumer_goods_factor = 0.55
-				conscription_factor = -0.5
+				conscription_factor = -0.4
 				join_faction_tension = 0.20
 			}
 		}
@@ -448,6 +448,7 @@ ideas = {
 				can_create_factions = yes
 			}
 			modifier = {
+				special_forces_cap = 0.25
 				drift_defence_factor = 0.5
 				global_building_slots_factor = 0.50
 				ai_badass_factor = 0.03 # cares for 3% of normal threat
@@ -1173,24 +1174,6 @@ ideas = {
 			}
 
 			traits = { coastal_defence_naval_manufacturer }
-
-			modifier = {
-			}
-		}
-		new_port_ship = {
-
-
-			allowed = {
-				original_tag = USA
-			}
-
-
-
-			research_bonus = {
-				naval_equipment = 0.10
-			}
-
-			traits = { new_port_ship }
 
 			modifier = {
 			}

@@ -1,0 +1,54 @@
+focus_tree = {
+	id = Peru
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PRU
+		}
+	}
+	default = no
+	focus = {
+		id = PRU_develop
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 500
+		x = 1
+		y = 0
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		303 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+		}
+		305 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+		}
+		add_resource = {
+				type = oil
+				amount = 18
+				state = 303
+			}
+		add_resource = {
+				type = tungsten
+				amount = 3
+				state = 492
+			}
+
+	remove_ideas = latin_neutrality
+	}
+	
+	}
+
+}

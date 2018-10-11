@@ -31,4 +31,5 @@ spriteTypes = {
         name = "GFX_music_decision"
         texturefile = "gfx/music_decision.dds"
     }
+	
 }

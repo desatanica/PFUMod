@@ -9,7 +9,7 @@ set_war_support = 0.6
 # Starting tech
 set_technology = {
 	tech_support = 1
-    tech_recon = 1	
+        tech_recon = 1	
 	tech_engineers = 1
 	tech_logistics_company
 	tech_mountaineers = 1
@@ -22,7 +22,7 @@ set_technology = {
 	early_fighter = 1
 	early_submarine = 1
 	early_destroyer = 1
- }
+}
 
 #Ideas
 if = {

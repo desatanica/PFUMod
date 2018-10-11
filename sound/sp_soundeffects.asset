@@ -1,0 +1,9 @@
+soundeffect = {
+	name = "total_war"
+	sounds = {
+		sound = 
+			total_war
+	}
+	volume = 1.3
+}
+

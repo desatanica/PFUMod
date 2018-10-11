@@ -443,16 +443,6 @@ country_event = {
 			add_ideas = FRA_FREE_army
 			set_cosmetic_tag = FRA_FREE
 			create_corps_commander = {
-				name = "Marechal Salt ReBorn"
-				picture = "saltFactory.dds"
-				traits = { panzer_leader }
-				skill = 6
-				attack_skill = 6
-				defense_skill = 6
-				planning_skill = 1
-				logistics_skill = 4
-			}
-			create_corps_commander = {
 				name = "Charles De Gaulle"
 				picture = "Portrait_France_Charles_De_Gaulle.dds"
 				traits = { panzer_leader }

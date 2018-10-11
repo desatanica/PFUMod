@@ -1,0 +1,41 @@
+focus_tree = {
+	id = Haiti
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = HAI
+		}
+	}
+	default = no
+	focus = {
+		id = HAI_develop
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 500
+		x = 1
+		y = 0
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		318 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+		}
+		add_resource = {
+				type = chromium
+				amount = 4
+				state = 318
+			}
+
+	remove_ideas = latin_neutrality
+	}
+	
+	}
+
+}

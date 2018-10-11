@@ -137,7 +137,7 @@ news_event = {
 	major = yes
 	
 	is_triggered_only = yes
-	
+
 	option = {
 		name = pfunews.totalwar.a
 		trigger = { 
@@ -145,12 +145,14 @@ news_event = {
 				TAG = GER
 			}
 		}
+	hidden_effect = { sound_effect = total_war }
 	}
 	option = {
 		name = pfunews.totalwar.b
 		trigger = {
 			TAG = GER
 		}
+	hidden_effect = { sound_effect = total_war }
 	}
 }
 
@@ -178,6 +180,36 @@ news_event = {
 	
 	option = {
 		name = pfunews.6.a
+	}
+}
+
+news_event = {
+	id = pfunews.7
+	title = pfunews.7.t
+	desc = pfunews.7.d
+	picture = GFX_news_event_005
+	
+	major = yes
+	
+		trigger = {
+     
+	 451 = { NOT = { is_controlled_by = ITA } }
+	 448 = { NOT = { is_controlled_by = ITA } }
+	 449 = { NOT = { is_controlled_by = ITA } } 
+	 NOT = { has_global_flag = liberation_of_africa }
+			
+		}
+	
+	immediate = {
+		set_global_flag = liberation_of_africa
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+		}
+	
+	option = {
+		name = pfunews.7.a
 	}
 }
 

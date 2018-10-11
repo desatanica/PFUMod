@@ -210,7 +210,7 @@ country_event = {
     id = pfu.5
     title = pfu.5.t
     desc = pfu.5.d
-    picture = GFX_report_event_Großdeutschland
+    picture = GFX_report_event_Grosdeutschland
 
     trigger = {
         tag = GER

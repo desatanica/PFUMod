@@ -111,8 +111,20 @@ spriteType = {
 		texturefile = "gfx/event_pictures/news_event_white_death.dds"
 	}
 	spriteType = {
-		name = "GFX_report_event_Großdeutschland"
-		texturefile = "gfx/event_pictures/report_event_Großdeutschland.dds"
+		name = "GFX_news_event_leningrad"
+		texturefile = "gfx/event_pictures/news_event_leningrad.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_fall_of_moscow"
+		texturefile = "gfx/event_pictures/news_event_fall_of_moscow.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_baku"
+		texturefile = "gfx/event_pictures/news_event_baku.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_Grosdeutschland"
+		texturefile = "gfx/event_pictures/report_event_Grosdeutschland.dds"
 	}
 		spriteType = {
 		name = "GFX_report_event_lssah"

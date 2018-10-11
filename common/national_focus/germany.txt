@@ -786,7 +786,7 @@ focus_tree = {
 		id = GER_foreign_ss
 		icon = GFX_goal_generic_SS_focus
 		prerequisite = { focus = GER_flak_36 focus = GER_battle_russia }
-		x = 7
+		x = 6
 		y = 5
 		cost = 10
 		ai_will_do = {
@@ -809,25 +809,6 @@ focus_tree = {
 			}
 		}
 	}
-
-	focus = {
-		id = GER_hitlerjugend0
-		icon = GFX_goal_generic_SS_focus
-		prerequisite = { focus = GER_flak_36 focus = GER_battle_russia }
-		x = 5
-		y = 5
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = GER_hitler_jugend
-		}
-	}
-
 
 	focus = {
 		id = GER_rocketry_focus

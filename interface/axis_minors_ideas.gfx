@@ -450,4 +450,12 @@ spriteTypes = {
 		name = "GFX_idea_FRA_FREE_army"
 		texturefile = "gfx/interface/ideas/FRA_FREE_army.dds"
 	}
+	spriteType = { 
+		name = "GFX_idea_graveyard"
+		texturefile = "gfx/interface/ideas/graveyard.dds"
+	}
+	spriteType = { 
+		name = "GFX_idea_AFG_graveyard_of_nations"
+		texturefile = "gfx/interface/ideas/AFG_graveyard_of_nations.dds"
+	}
 }

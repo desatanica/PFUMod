@@ -1945,7 +1945,7 @@ ideas = {
 				naval_equipment = 0.10
 			}
 
-			traits = { naval_manufacturer }
+			traits = { med_fleet_naval_manufacturer }
 
 			modifier = {
 			}

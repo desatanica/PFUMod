@@ -2667,7 +2667,7 @@ news_event = {
 	id = news.103
 	title = news.103.t
 	desc = news.103.d
-	picture = GFX_news_event_soldiers_marching
+	picture = GFX_news_event_leningrad
 	
 	major = yes
 	
@@ -2715,8 +2715,7 @@ news_event = {
 	major = yes
 	
 	trigger = {
-		202 = { is_controlled_by = GER }
-		202 = { is_owned_by = SOV }
+        202 = { NOT = { is_controlled_by = SOV } }
 		GER = { has_war_with = SOV }
 		NOT = { has_global_flag = fall_of_kiev }
 	}
@@ -2758,8 +2757,7 @@ news_event = {
 	major = yes
 	
 	trigger = {
-		217 = { is_controlled_by = GER }
-		217 = { is_owned_by = SOV }
+        217 = { NOT = { is_controlled_by = SOV } }
 		GER = { has_war_with = SOV }
 		NOT = { has_global_flag = fall_of_stalingrad }
 	}
@@ -2796,7 +2794,7 @@ news_event = {
 	id = news.106
 	title = news.106.t
 	desc = news.106.d
-	picture = GFX_news_event_soldiers_marching
+	picture = GFX_news_event_fall_of_moscow
 	
 	major = yes
 	
@@ -2882,7 +2880,7 @@ news_event = {
 	id = news.108
 	title = news.108.t
 	desc = news.108.d
-	picture = GFX_news_event_kiev_ruins
+	picture = GFX_news_event_baku
 	
 	major = yes
 	

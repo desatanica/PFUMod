@@ -36,7 +36,7 @@ focus_tree = {
 
    focus = {
        id = SIA_production_effort_1
-       icon = GFX_idea_rice_reforms
+       icon = GFX_goal_generic_construction2
 		x = 4
 		y = 5
 		cost = 10
@@ -696,7 +696,7 @@ focus_tree = {
 
 	focus = {
 		id = SIA_fascism_support
-		icon = GFX_focus_SIA_fascism_leanings
+		icon = GFX_goal_support_fascism
 		prerequisite = { focus = SIA_adressing_political_issues }
 		x = 11
 		y = 1
@@ -716,7 +716,7 @@ focus_tree = {
 
 	focus = {
    id = SIA_strenghten_rel_jap
-   icon = GFX_focus_SIA_japan_siam_deal
+   icon = GFX_focus_jap_pacific_guardian
    prerequisite = { focus = SIA_fascism_support }
    x = 10
    y = 2
@@ -732,7 +732,7 @@ focus_tree = {
 
   focus = {
    id = SIA_strenghten_rel_ger
-   icon = GFX_focus_SIA_thai_germany
+   icon = GFX_focus_ger_oppose_hitler
    prerequisite = { focus = SIA_fascism_support }
    x = 12
    y = 2
@@ -748,7 +748,7 @@ focus_tree = {
 
   focus = {
       id= SIA_fascist_nation
-	  icon = GFX_focus_SIA_thailand_fascist
+	  icon = GFX_focus_ger_break_anglo_french_colonial_hegemony
 	  x = 11
 	  y = 3
 	  cost = 10

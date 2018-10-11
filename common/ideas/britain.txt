@@ -1244,36 +1244,6 @@ ideas = {
 			}
 		}
 	}
-	naval_manufacturer = {
-	
-		designer = yes
-		
-		yarrow = {
-						
-			allowed = {
-				original_tag = ENG
-			}
-						
-			research_bonus = {
-				naval_equipment = 0.10
-			}
-			
-			traits = { yarrow_design }
-		}
-		
-		johnbrown = {
-						
-			allowed = {
-				original_tag = ENG
-			}
-						
-			research_bonus = {
-				naval_equipment = 0.10
-			}
-			
-			traits = { johnbrown_design }
-		}
-	}
 
 	theorist = {
 

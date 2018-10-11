@@ -2,54 +2,26 @@
 
 foreign_politics = {
 
-		steal_siam_Rubber = { #195
-
-		icon = rubber
-
-		highlight_states = {
-			state = 530
-		}
-
-		allowed = {
-			#Everyone
-		}
-
-		available = {
-			has_full_control_of_state = 530
-		}
-
+	annex_siam = {
+		ai_will_do = { factor = 0 }
+		cost = 10
 		visible = {
-			controls_state = 530
 			tag = JAP
+			JAP = { is_ai = no }
 			SIA = { is_ai = yes }
 			country_exists = SIA
+
 		}
-
-		fire_only_once = yes
-
-		cost = 25
-
-		modifier = {
-
+		available = {
+			date > 1940.1.1
 		}
 
 		complete_effect = {
-				724 = {
-					add_resource = {
-						type = rubber
-						amount = -77
-					}
-				}
-				530 = {
-					add_resource = {
-						type = rubber
-						amount = 70
-					}
-				}
-			
+			JAP = {
+				annex_country = { target = SIA transfer_troops = yes }
+			}
 		}
 	}
-
 
 	JAP_sue_for_peace_CHI = {
 

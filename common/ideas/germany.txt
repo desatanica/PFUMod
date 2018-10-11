@@ -41,6 +41,26 @@ ideas = {
 				training_time_factor = -0.15
 			}
 		}
+		
+		afg_neutrality = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				has_government = democratic
+			}
+			
+			removal_cost = -1
+
+			picture = AFG_graveyard_of_nations
+			
+			modifier = {
+            enemy_justify_war_goal_time = 2.0
+			army_core_defence_factor = 0.20
+			army_speed_factor = 0.10
+			}
+		}
 
 		triumphant_will = {
 
@@ -155,25 +175,7 @@ ideas = {
 			picture = generic_infantry_bonus
 
          	modifier = {
-            	conscription = 0.005
-			}
-		}
-
-		GER_hitler_jugend = {
-			removal_cost = -1
-			allowed = {
-				always = no # Unlocked via focus
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			picture = generic_manpower_bonus
-
-         	modifier = {
-            	conscription = 0.0075
-				army_org_Factor = 0.05
+            	conscription = 0.01
 			}
 		}
 
@@ -567,8 +569,7 @@ ideas = {
 			picture = FRA_army_of_aggression_focus
 
 			modifier = {
-			navy_submarine_attack_factor = 0.1
-		    navy_submarine_defence_factor = 0.1
+            naval_torpedo_range_factor = 0.5
 			}
 
 			equipment_bonus = {
@@ -1333,23 +1334,7 @@ ideas = {
 			traits = { electronics_concern }
 		}
 	}
-	naval_manufacturer = {
-	
-		designer = yes
-		
-		blom = {
-						
-			allowed = {
-				original_tag = GER
-			}
-						
-			research_bonus = {
-				naval_equipment = 0.10
-			}
-			
-			traits = { blom_design }
-		}
-	}
+
 
 	materiel_manufacturer = {
 

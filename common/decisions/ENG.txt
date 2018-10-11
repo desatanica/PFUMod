@@ -241,12 +241,12 @@ political_actions = {
 
 	annex_canada = {
 		ai_will_do = { factor = 0 }
-		cost = 50	
+		cost = 10	
 		visible = {
 			tag = ENG
+			ENG = { is_ai = no }
 			CAN = { is_ai = yes }
 			country_exists = CAN
-			#date > 1941.4.1
 		}
 
 		complete_effect = {
@@ -259,12 +259,12 @@ political_actions = {
 
 	annex_british_raj = {
 		ai_will_do = { factor = 0 }
-		cost = 50
+		cost = 10
 		visible = {
 			tag = ENG
+			ENG = { is_ai = no }
 			RAJ = { is_ai = yes }
 			country_exists = RAJ
-			#date > 1940.1.1
 		}
 
 		complete_effect = {
@@ -277,12 +277,12 @@ political_actions = {
 
 	annex_south_africa = {
 		ai_will_do = { factor = 0 }
-		cost = 30
+		cost = 10
 		visible = {
 			tag = ENG
+			ENG = { is_ai = no }
 			SAF = { is_ai = yes }
 			country_exists = SAF
-			#date > 1940.1.1
 		}
 
 		complete_effect = {
@@ -295,12 +295,12 @@ political_actions = {
 
 	annex_australia = {
 		ai_will_do = { factor = 0 }
-		cost = 30
+		cost = 10
 		visible = {
 			tag = ENG
+			ENG = { is_ai = no }
 			AST = { is_ai = yes }
 			country_exists = AST
-			#date > 1941.4.1
 		}
 
 		complete_effect = {
@@ -313,12 +313,13 @@ political_actions = {
 
 	annex_new_zealand = {
 		ai_will_do = { factor = 0 }
-		cost = 20
+		cost = 10
 		visible = {
 			tag = ENG
+			ENG = { is_ai = no }
 			NZL = { is_ai = yes }
 			country_exists = NZL
-			#date > 1939.2.1
+
 		}
 
 		complete_effect = {
@@ -332,6 +333,47 @@ political_actions = {
 
 operations = {
 
+	occupy_portuguese_africa = {
+
+		icon = generic_operation
+
+		allowed = {
+			tag = ENG
+		}
+
+		available = {
+			tag = ENG
+			has_war_with = GER
+			POR = { has_war_with = SPR }
+		}
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		visible = {
+			tag = ENG
+			has_war_with = GER
+		}
+
+		complete_effect = {
+		ENG = {
+			transfer_state = 544
+			transfer_state = 540
+			transfer_state = 296
+			transfer_state = 705
+		}
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
 	operation_fork = {
 
 		icon = generic_operation

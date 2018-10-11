@@ -108,21 +108,17 @@ GER_case_anton_category = {
 
 political_actions = {
 
-	annex_bulgaria = {
+	Puppet_Bulgaria = {
 		ai_will_do = { factor = 0 }
-		cost = 20
+		cost = 10
 		visible = {
 			tag = GER
 			BUL = { is_ai = yes }
 			country_exists = BUL
-			#date > 1940.1.1
 		}
 
 		complete_effect = {
-			GER = {
-				annex_country = { target = BUL transfer_troops = yes }
-				add_ideas = annex_bulgaria_idea
-			}
+        GER = { puppet = BUL }
 		}
 	}
 
@@ -147,34 +143,15 @@ political_actions = {
 		}
 	}
 
-
-	Operation_Panzerfaust = {
+	Puppet_Romania = {
 		ai_will_do = { factor = 0 }
-		cost = 25
-		visible = {
-			tag = GER
-			HUN = { is_ai = yes }
-			country_exists = HUN
-			date > 1937.1.1
-		}
-
-		complete_effect = {
-			GER = {
-				annex_country = { target = HUN transfer_troops = yes }
-				add_ideas = annex_hungary_idea
-			}
-		}
-	}
-
-	Puppet_ROM = {
-		ai_will_do = { factor = 0 }
-		cost = 0
+		cost = 10
 
 		visible = {
 			tag = GER
+			GER = { is_ai = no }
 			ROM = { is_ai = yes }
 			country_exists = ROM
-			date > 1936.1.1
 		}
 
 		complete_effect = {
@@ -184,13 +161,14 @@ political_actions = {
 
 	Puppet_Finland = {
 		ai_will_do = { factor = 0 }
-		cost = 0
+		cost = 10
 
 		visible = {
 			tag = GER
-			fin = { is_ai = yes }
+			GER = { is_ai = no }
+			FIN = { is_ai = yes }
 			country_exists = FIN
-			date > 1940.1.1
+			
 		}
 
 		complete_effect = {
@@ -198,15 +176,15 @@ political_actions = {
 		}
 	}
 
-	Operation_Margarethe = {
+	Puppet_Hungary = {
 		ai_will_do = { factor = 0 }
-		cost = 0
+		cost = 10
 
 		visible = {
 			tag = GER
+			GER = { is_ai = no }
 			HUN = { is_ai = yes }
 			country_exists = HUN
-			date > 1936.1.1
 		}
 
 		complete_effect = {
@@ -221,6 +199,7 @@ political_actions = {
 
 		visible = {
 			tag = GER
+			GER = { is_ai = no }
 			country_exists = EFR
 			date > 1941.4.1
 		}
